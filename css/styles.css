@@ -181,6 +181,10 @@ hr{
     .bottom-cloud{
         visibility: hidden;
     }
+    
+    .intro{
+        text-align: left;
+    }
 
     .wd{
         height: 150px;

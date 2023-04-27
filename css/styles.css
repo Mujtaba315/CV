@@ -96,23 +96,23 @@ hr{
 }
 
 .wd {
-    width: 25%;
-    height: 140px;
+    width: 30%;
+    height: 160px;
     float: left;
     margin-right: 30px;
 }
 
 .pd {
-    width: 25%;
-    height: 140px;
+    width: 30%;
+    height: 160px;
     float: right;
     margin-left: 30px;
     border-radius: 100%;
 }
 
 .sk {
-    width: 25%;
-    height: 140px;
+    width: 30%;
+    height: 160px;
     float: left;
     margin-right: 35px;
 }
@@ -170,3 +170,42 @@ hr{
 
 
 /******************************************* ID SELECTORS ***************************************/
+
+
+@media (max-width: 1204px){
+
+    .top-cloud{
+        visibility: hidden;
+    }
+
+    .bottom-cloud{
+        visibility: hidden;
+    }
+
+    .wd{
+        height: 150px;
+        width: 150px;
+        float: none;
+        display: flex;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .pd{
+        height: 150px;
+        width: 150px;
+        float: none;
+        display: flex;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+
+    .sk{
+        height: 150px;
+        width: 150px;
+        float: none;
+        display: flex;
+        margin: auto;
+        padding-bottom: 20px;
+    }
+}
